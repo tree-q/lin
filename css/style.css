@@ -1225,7 +1225,7 @@ body {
 .about .about-bottom .experience .item {
   display: grid;
   grid-template-columns: 1fr 1fr 3fr;
-  gap: 16px;
+  gap: 24px;
 }
 
 .about .about-bottom .experience .item .time {
@@ -1241,7 +1241,7 @@ body {
 }
 
 .about .about-bottom .experience .item .name .company a {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
   color: #c1bcb3;
   transition: color .15s ease-in;
@@ -1249,6 +1249,12 @@ body {
 
 .about .about-bottom .experience .item .name .company a:hover {
   color: #d1842d;
+}
+
+.about .about-bottom .experience .item .name .com-style {
+  font-size: 15px;
+  line-height: 24px;
+  color: #c1bcb3;
 }
 
 .about .about-bottom .experience .item .name .job {
@@ -1260,7 +1266,7 @@ body {
 .about .about-bottom .experience .item .project-experience {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 28px;
 }
 
 .about .about-bottom .experience .item .project-experience .item {
@@ -1270,13 +1276,14 @@ body {
 }
 
 .about .about-bottom .experience .item .project-experience .item .title {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
   font-weight: 500;
   background: linear-gradient(180deg, #f6f0e8 0%, rgba(246, 240, 232, 0.72) 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-left: 10px;
 }
 
 .about .about-bottom .experience .item .project-experience .item .desc {
@@ -1288,6 +1295,10 @@ body {
   line-height: 28px;
   list-style: circle;
   opacity: 0.8;
+}
+
+.about .about-bottom .experience .item .project-experience .item .spacing {
+  padding-left: 28px;
 }
 
 /* tooltip */

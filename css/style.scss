@@ -1152,7 +1152,7 @@ body {
             .item {
                 display: grid;
                 grid-template-columns: 1fr 1fr 3fr;
-                gap: 16px;
+                gap: 24px;
 
                 .time {
                     font-size: 14px;
@@ -1167,7 +1167,7 @@ body {
 
                     .company {
                         a {
-                            font-size: 14px;
+                            font-size: 15px;
                             line-height: 24px;
                             color: $color-text-body-secondary;
                             transition: color .15s ease-in;
@@ -1176,6 +1176,11 @@ body {
                                 color: $color-brand-default;
                             }
                         }
+                    }
+                    .com-style{
+                        font-size: 15px;
+                        line-height: 24px;
+                        color: $color-text-body-secondary;
                     }
 
                     .job {
@@ -1188,7 +1193,7 @@ body {
                 .project-experience {
                     display: flex;
                     flex-direction: column;
-                    gap: 40px;
+                    gap: 28px;
 
                     .item {
                         display: flex;
@@ -1196,13 +1201,14 @@ body {
                         gap: 16px;
 
                         .title {
-                            font-size: 16px;
+                            font-size: 15px;
                             line-height: 24px;
                             font-weight: 500;
                             background: linear-gradient(180deg, $color-text-body-primary 0%, rgba($color-text-body-primary, 0.72) 100%);
                             background-clip: text;
                             -webkit-background-clip: text;
                             -webkit-text-fill-color: transparent;
+                            padding-left: 10px;
                         }
 
                         .desc {
@@ -1214,6 +1220,9 @@ body {
                                 list-style: circle;
                                 opacity: 0.8;
                             }
+                        }
+                        .spacing{
+                            padding-left: 28px;
                         }
                     }
                 }
