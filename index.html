@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="color-scheme: dark;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asorn - Product Designer</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="shortcut icon" href="./assets/public/favicon.svg"/>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <div class="head">
+        <div class="main">
+            <a href="./index.html" class="logo"><img src="./assets/public/logo_text.svg"></a>
+            <div class="menu">
+                <li class="magical btn nav" onclick="window.location.href='./index.html'">首页</li>
+                <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>
+                <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+            </div>
+            <div class="menu" id="menu-expand">
+                <li class="magical btn skin" id="menu-expand-child"><i class="icon menu-icon"></i></li>
+            </div>
+            <div id="menu-panel">
+                <div class="menu-panel-content">
+                    <li class="magical btn nav" onclick="window.location.href='./index.html'">首页</li>
+                    <li class="magical btn" onclick="window.location.href='./work.html'">作品</li>
+                    <li class="magical btn" onclick="window.location.href='./about.html'">关于</li>
+                </div>
+            </div>
+        </div>
+        <blockquote><img src="./assets/public/logo.svg"></blockquote>
+    </div>
+    <div class="index">
+        <div class="hello">
+            <div class="title">
+                <div class="title-hi">您好，我是</div>
+                <div class="title-name">秦林</div>
+            </div>
+            <div class="hello-desc" id="typed"></div>
+        </div>
+        <div class="content-divider"></div>
+        <div class="quickly-link">
+            <div class="title-hi">设计工作</div>
+            <div class="loader"></div>
+            <div class="link-card">
+                <div class="link-card-list0">
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">网页模板设计</div>
+                                <div class="info-desc">制作了5个不同主题的线上展览模板</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">博物馆线上展项目</div>
+                                <div class="info-desc">完成2个博物馆线上展设计工作</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">官网移动端改版</div>
+                                <div class="info-desc">参与了官网移动端改版设计工作</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">官网相关设计工作</div>
+                                <div class="info-desc">banner图、登录页和空状态插图设计</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">物料设计</div>
+                                <div class="info-desc">制作完成了三折页线下物料</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">家居项目</div>
+                                <div class="info-desc">早期设计项目,含App和Web端</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">新能源汽车充电APP项目</div>
+                                <div class="info-desc">早期设计项目</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">医美B端项目</div>
+                                <div class="info-desc">早期设计项目,和小程序联动</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <div class="info">
+                                <div class="info-title">培训类官网设计</div>
+                                <div class="info-desc">早期设计项目</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none" style="margin-top: 12px;">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 8V0H4.5V8H3.5Z" fill="#62616F"></path>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4.5H0V3.5H8V4.5Z" fill="#62616F"></path>
+                </svg>
+                <div class="title-tool">设计工具</div>
+                <div class="link-card-list">
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/figma.png" alt="">
+                            <div class="info">
+                                <div class="info-title">Figma</div>
+                                <div class="info-desc">页面设计主要工具</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/photoshop.png" alt="">
+                            <div class="info">
+                                <div class="info-title">Photoshop</div>
+                                <div class="info-desc">辅助工具</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/illustrator.png" alt="">
+                            <div class="info">
+                                <div class="info-title">Illustrator</div>
+                                <div class="info-desc">辅助工具</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/after-effects.png" alt="">
+                            <div class="info">
+                                <div class="info-title">After Effects</div>
+                                <div class="info-desc">辅助工具</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/stable-Diffusion.png" alt="">
+                            <div class="info">
+                                <div class="info-title">Stable Diffusion</div>
+                                <div class="info-desc">辅助工具</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="magical link-card-item">
+                        <a>
+                            <img src="./assets/index/midjourney.png" alt="">
+                            <div class="info">
+                                <div class="info-title">Midjourney</div>
+                                <div class="info-desc">辅助工具</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <img src="./assets/index/point.svg" width="12" height="12" viewBox="0 0 8 8" fill="none" style="margin-top: 12px;">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="copyright">
+            <div>© 2023 Design by Asorn</div>
+            <!-- <span>|</span>
+            <div class="fillings">
+                <a href="https://asorn.cn/" target="_blank">我的站酷</a>
+            </div>
+            <span>|</span>
+            <div class="friends">
+                <a href="https://zdo.fun/" target="_blank">ZDO</a>
+            </div> -->
+        </div>
+    </div>
+    <div class="widget">
+        <div class="shape-light"></div>
+        <div class="shape-star">
+            <div class="rising-stars rising-stars-visible">
+                <div style="height:1px;width:1px"></div>
+                <div style="height:2px;width:2px"></div>
+                <div style="height:1px;width:1px"></div>
+            </div>
+        </div>
+        <div class="shape-earth"></div>
+    </div>
+</body>
+<script>
+    // 打字效果，感谢 typed.js: https://mattboldt.github.io/typed.js/docs/
+    const options = {
+        strings: [
+            "> 耽误您片刻时间， ^1000",
+            "> 了解我和我的作品集。 ^1000",
+        ],
+        typeSpeed: 60, // 打印速度
+        backSpeed: 30, // 回退速度
+        startDelay: 300, // 开始之前的延迟300毫秒
+        loop: true, // 是否循环
+        showCursor: false, // 不显示光标
+    };
+    const typed = new Typed('#typed', options);
+</script>
+<script src="./js/main.min.js"></script>
+<script src='./js/anime.js'></script>
+<script src='./js/firework.js'></script>
+</html>
